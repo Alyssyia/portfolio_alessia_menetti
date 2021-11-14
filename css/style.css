@@ -164,7 +164,7 @@ video{
 #header button{
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;    
-    background-color: rgba(0, 0, 0, 0.329);
+    background-color: rgba(200, 163, 235, .4);
     border: 3px solid rgba(255, 255, 255, 0.9);
     border-radius: 7px;
     color: rgba(255, 255, 255, 0.9);
