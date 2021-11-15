@@ -159,8 +159,8 @@ video{
 
 #link-showreel{
     position: absolute;
-    bottom: 7%;
-    right: 2.5%;
+    bottom: 8%;
+    right: 4%;
 }
 
 #landing-page #link-showreel i{
@@ -176,10 +176,14 @@ video{
     animation: "dongle" 1s infinite ;
 }
 
-@keyframes dongle {
+
+
+
+@-webkit-keyframes dongle {
     50% {bottom: 7%}
     100% {bottom: 8%}
 }
+
 
 #landing-page a{
     color: rgba(255, 255, 255, 0.4);
