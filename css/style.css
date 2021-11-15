@@ -3,6 +3,7 @@
 1- landing page 100vh nasconde loghi su iphone
 2- autostart dei video
 3- pagina si apre a metà su chrome mobile
+4- cambiare i video shadow e unirli in un unico div
 */
 
 
@@ -45,17 +46,17 @@
 }
 
 .ms_video_shadow_top{
-    height: 30%;
+    height: 50%;
     width: 100%;
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
     position: absolute;
     top: 0%;
 }
 
 .ms_video_shadow_bot{
-    height: 30%;
+    height: 50%;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.40), rgb(0, 0, 0));
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
     position: absolute;
     bottom: 0%;
 }
