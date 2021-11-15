@@ -204,20 +204,19 @@ video{
 /* HEADER FIXED*/
 #header{
     height: 100px;
+    display: unset !important;
+    text-align: center;
 }
 
-#header .fixed{
-    position: fixed;
-    /* padding: 2em; */
-    left: 50%;
+#drop-menu-box{
+    position: -webkit-sticky;
+    position: sticky;
     top: 2%;
-    transform: translateX(-50%);
+    left: 50%;
+    z-index: 9999;
 }
 
-#header button{
-    /* DA FIXARE: ALTERNATIVA ALLA JQUERY */
-    /* position: -webkit-sticky;
-    position: sticky; */
+#drop-menu-box button{
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;    
     background-color: rgba(200, 163, 235, .4);
@@ -228,11 +227,11 @@ video{
     z-index: 999;
 }
 
-#header button:hover{
+#drop-menu-box button:hover{
     opacity: .7;
 }
 
-#header .dropdown-toggle::after{
+#drop-menu-box .dropdown-toggle::after{
     content: none;
 }
 /* /HEADER */
