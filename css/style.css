@@ -67,6 +67,10 @@ img{
     object-fit: cover;
 }
 
+.ms_icon_box{
+    width: 30%;
+}
+
 .ms_icon_box img{
     min-height: 50px;
     max-height: 50px;
