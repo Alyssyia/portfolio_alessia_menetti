@@ -144,6 +144,29 @@ video{
     z-index: 999;
     text-shadow: 2px 2px 8px #000000;
 }
+
+#link-showreel{
+    position: absolute;
+    bottom: 3%;
+    right: 2%;
+}
+
+#landing-page i{
+    transform: scale(2);
+}
+
+#landing-page a{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+#landing-page a:hover{
+    opacity: .4;
+}
+
+#landing-page a:visited{
+    color: rgba(255, 255, 255, 0.6);
+}
 /* /LANDING PAGE */
 
 
