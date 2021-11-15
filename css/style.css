@@ -160,7 +160,7 @@ video{
 #link-showreel{
     position: absolute;
     bottom: 7%;
-    right: 2%;
+    right: 2.5%;
 }
 
 #landing-page #link-showreel i{
@@ -170,15 +170,15 @@ video{
 #landing-page #scroll-down{
     position: absolute;
     font-size: 14.5px;
-    bottom: 28%;
+    bottom: 8%;
     left: 50%;
     transform: translatex(-50%);
     animation: "dongle" 1s infinite ;
 }
 
 @keyframes dongle {
-    50% {bottom: 27%}
-    100% {bottom:28%}
+    50% {bottom: 7%}
+    100% {bottom: 8%}
 }
 
 #landing-page a{
