@@ -89,6 +89,19 @@ video{
     object-fit: cover;
 }
 
+#divider{
+    width: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    opacity: .9;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink{
+    49% {opacity: .9}
+    50% {opacity: 0;}
+    99% {opacity: 0;}
+}
+
 /* SCROLLBAR PERSONALIZATION (Only on Chrome, Edge, Safari, Opera) */
 /* total width */
 /* body::-webkit-scrollbar {
@@ -177,7 +190,7 @@ video{
     bottom: 8%;
     left: 50%;
     transform: translatex(-50%);
-    animation: dongle 1s infinite ;
+    animation: dongle 1s infinite;
 }
 
 @keyframes dongle {
@@ -317,7 +330,7 @@ video{
 
 /* FOOTER */
 footer{
-    line-height: 50px;
+    line-height: 30px;
     background-color: rgb(37, 37, 37);
 }
 
