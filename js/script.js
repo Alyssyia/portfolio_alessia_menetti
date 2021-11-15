@@ -1,15 +1,15 @@
 //MENU BUTTON FIXED ON SCROLL
-$(document).on('scroll', function () {
-    if ($(window).scrollTop() > $('#header').position().top) {
-        document.getElementById("drop-menu-box").classList.add("position-fixed");
-    }
-});
+// $(document).on('scroll', function () {
+//     if ($(window).scrollTop() > $('#header').position().top) {
+//         document.getElementById("drop-menu-box").classList.add("position-fixed");
+//     }
+// });
 
-$(document).on('scroll', function () {
-    if ($(window).scrollTop() < $('#header').position().top) {
-        document.getElementById("drop-menu-box").classList.remove("position-fixed");
-    }
-});
+// $(document).on('scroll', function () {
+//     if ($(window).scrollTop() < $('#header').position().top) {
+//         document.getElementById("drop-menu-box").classList.remove("position-fixed");
+//     }
+// });
 
 
 //SCRITTA SCROLL DOWN SCOMPARE

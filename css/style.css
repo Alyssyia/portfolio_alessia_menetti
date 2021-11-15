@@ -223,16 +223,14 @@ video{
 /* HEADER FIXED*/
 #header{
     height: 100px;
-    /* display: unset !important; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
     text-align: center;
 }
 
-#drop-menu-box{
-    /* position: -webkit-sticky;
-    position: sticky; */
-    top: 2%;
-    z-index: 9999;
-}
+
 
 #drop-menu-box button{
     font-family: 'Roboto Mono', monospace;
