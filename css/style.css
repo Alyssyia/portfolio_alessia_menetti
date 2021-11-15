@@ -65,7 +65,7 @@
 
 img{
     width: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .ms_mono_icon_box{
