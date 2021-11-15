@@ -3,6 +3,12 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+#jq-trigger{
+    width: 10px;
+    height: 3px;
+    background-color: white;
+}
+
 .ms_mtop{
     margin-top: 15vh;
 }
@@ -29,6 +35,10 @@
 
 .ms_fs_8{
     font-size: 0.80rem;
+}
+
+.ms_hidden{
+    display: none;
 }
 
 .ms_video_shadow_top{
@@ -151,12 +161,25 @@ video{
     right: 2%;
 }
 
-#landing-page i{
+#landing-page #link-showreel i{
     transform: scale(2);
 }
 
+#landing-page #scroll-down{
+    position: absolute;
+    font-size: 14.5px;
+    bottom: 1%;
+    left: 50%;
+    transform: translatex(-50%);
+    animation: "dongle" 1s infinite ;
+}
+
+@keyframes dongle {
+    50% {bottom: 0%}
+}
+
 #landing-page a{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.4);
     text-decoration: none;
 }
 
@@ -165,7 +188,7 @@ video{
 }
 
 #landing-page a:visited{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.4);
 }
 /* /LANDING PAGE */
 
@@ -185,6 +208,9 @@ video{
 }
 
 #header button{
+    /* DA FIXARE: ALTERNATIVA ALLA JQUERY */
+    /* position: -webkit-sticky;
+    position: sticky; */
     font-family: 'Roboto Mono', monospace;
     font-weight: bold;    
     background-color: rgba(200, 163, 235, .4);
@@ -296,10 +322,6 @@ footer a:visited{
     color: rgb(200, 163, 235);
 }
 /* /FOOTER */
-
-
-
-
 
 
 
