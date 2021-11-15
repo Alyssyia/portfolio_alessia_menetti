@@ -41,22 +41,6 @@
     opacity: 0;
 }
 
-.ms_hidden_75{
-    opacity: .25;
-}
-
-.ms_hidden_50{
-    opacity: .5;
-}
-
-.ms_hidden_25{
-    opacity: .75;
-}
-
-.ms_hidden_0{
-    opacity: 1;
-}
-
 .ms_video_shadow_top{
     height: 30%;
     width: 100%;
@@ -207,7 +191,7 @@ video{
     left: 50%;
     transform: translatex(-50%);
     animation: dongle 1s infinite;
-    transition: .1s;
+    transition: 1s;
 }
 
 @keyframes dongle {
