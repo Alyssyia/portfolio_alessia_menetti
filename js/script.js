@@ -12,15 +12,15 @@ $(document).on('scroll', function () {
 });
 
 
-// //SCRITTA SCROLL DOWN SCOMPARE
-// $(document).on('scroll', function () {
-//     if ($(this).scrollTop() > $('#jq-trigger').position().top) {
-//         document.getElementById("scroll-down").classList.add("ms_hidden");
-//     }
-// });
+//SCRITTA SCROLL DOWN SCOMPARE
+$(document).on('scroll', function () {
+    if ($(this).scrollTop() > $('#landing-page').position().top) {
+        document.getElementById("scroll-down").classList.add("ms_hidden");
+    }
+});
 
-// $(document).on('scroll', function () {
-//     if ($(this).scrollTop() <= $('#scroll-down').position().top) {
-//         document.getElementById("scroll-down").classList.remove("ms_hidden");
-//     }
-// });
+$(document).on('scroll', function () {
+    if ($(this).scrollTop() <= $('#scroll-down').position().top) {
+        document.getElementById("scroll-down").classList.remove("ms_hidden");
+    }
+});

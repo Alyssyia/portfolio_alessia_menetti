@@ -9,14 +9,6 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-#jq-trigger{
-    width: 10px;
-    height: 30px;
-    background-color: white;
-    position: absolute;
-    top: 0%;
-}
-
 .ms_mtop{
     margin-top: 15vh;
 }
