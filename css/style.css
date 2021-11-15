@@ -212,13 +212,13 @@ video{
 /* HEADER FIXED*/
 #header{
     height: 100px;
-    display: unset !important;
+    /* display: unset !important; */
     text-align: center;
 }
 
 #drop-menu-box{
-    position: -webkit-sticky;
-    position: sticky;
+    /* position: -webkit-sticky;
+    position: sticky; */
     top: 2%;
     z-index: 9999;
 }

@@ -1,3 +1,17 @@
+//MENU BUTTON FIXED ON SCROLL
+$(document).on('scroll', function () {
+    if ($(this).scrollTop() > $('#header').position().top) {
+        document.getElementById("drop-menu-box").classList.add("position-fixed");
+    }
+});
+
+$(document).on('scroll', function () {
+    if ($(this).scrollTop() < $('#header').position().top) {
+        document.getElementById("drop-menu-box").classList.remove("position-fixed");
+    }
+});
+
+
 // //SCRITTA SCROLL DOWN SCOMPARE
 // $(document).on('scroll', function () {
 //     if ($(this).scrollTop() > $('#jq-trigger').position().top) {
