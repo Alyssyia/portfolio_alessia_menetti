@@ -62,20 +62,20 @@
     z-index: -1;
 }
 
+
 img{
     width: 100%;
     object-fit: cover;
 }
 
-/* .ms_icon_box{
-    width: 30%;
-    min-width: 300px;
-} */
-
-.ms_icon_box img{
+.ms_mono_icon_box{
     height: 50px;
     width: 50px;
     margin: 0 10px;
+}
+
+.ms_icon_box img{
+    height: 100%;
 }
 
 video{
