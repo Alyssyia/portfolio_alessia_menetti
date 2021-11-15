@@ -6,7 +6,7 @@
 #jq-trigger{
     width: 10px;
     height: 3px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .ms_mtop{
@@ -38,7 +38,7 @@
 }
 
 .ms_hidden{
-    display: none;
+    color:black;
 }
 
 .ms_video_shadow_top{
