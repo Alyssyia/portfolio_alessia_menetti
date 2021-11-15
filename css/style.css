@@ -37,8 +37,24 @@
     font-size: 0.80rem;
 }
 
-.ms_hidden{
-    display: none;
+.ms_hidden_100{
+    opacity: 0;
+}
+
+.ms_hidden_75{
+    opacity: .25;
+}
+
+.ms_hidden_50{
+    opacity: .5;
+}
+
+.ms_hidden_25{
+    opacity: .75;
+}
+
+.ms_hidden_0{
+    opacity: 1;
 }
 
 .ms_video_shadow_top{
@@ -191,6 +207,7 @@ video{
     left: 50%;
     transform: translatex(-50%);
     animation: dongle 1s infinite;
+    transition: .1s;
 }
 
 @keyframes dongle {
@@ -224,13 +241,14 @@ video{
 #header{
     height: 100px;
     position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -o-sticky;
+    position: -ms-sticky;
     position: sticky;
     top: 0;
     z-index: 9999;
     text-align: center;
 }
-
-
 
 #drop-menu-box button{
     font-family: 'Roboto Mono', monospace;
