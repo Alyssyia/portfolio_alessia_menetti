@@ -1,3 +1,9 @@
+/* TODO FIX */
+/* 1- position sticky del menu button su iphone con iOS < 15
+2- keyframe animation non va su chrome */
+
+
+
 /* COMMONS */
 *{
     font-family: 'Roboto Mono', monospace;
@@ -173,7 +179,7 @@ video{
     bottom: 8%;
     left: 50%;
     transform: translatex(-50%);
-    animation: "dongle" 1s infinite ;
+    animation: dongle 1s infinite ;
 }
 
 
