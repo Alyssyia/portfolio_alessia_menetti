@@ -5,8 +5,10 @@
 
 #jq-trigger{
     width: 10px;
-    height: 3px;
-    background-color: rgba(255, 255, 255, 0);
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 0%;
 }
 
 .ms_mtop{
@@ -38,7 +40,7 @@
 }
 
 .ms_hidden{
-    color:black;
+    display: none;
 }
 
 .ms_video_shadow_top{
@@ -157,7 +159,7 @@ video{
 
 #link-showreel{
     position: absolute;
-    bottom: 3%;
+    bottom: 7%;
     right: 2%;
 }
 
@@ -168,14 +170,14 @@ video{
 #landing-page #scroll-down{
     position: absolute;
     font-size: 14.5px;
-    bottom: 1%;
+    bottom: 8%;
     left: 50%;
     transform: translatex(-50%);
     animation: "dongle" 1s infinite ;
 }
 
 @keyframes dongle {
-    50% {bottom: 0%}
+    50% {bottom: 7%}
 }
 
 #landing-page a{
