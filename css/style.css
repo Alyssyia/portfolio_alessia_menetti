@@ -202,7 +202,7 @@ video{
 #landing-page #scroll-down{
     position: absolute;
     font-size: 14.5px;
-    bottom: 8%;
+    bottom: 20%;
     left: 50%;
     transform: translatex(-50%);
     animation: dongle 1s infinite;
@@ -210,13 +210,13 @@ video{
 }
 
 @keyframes dongle {
-    50% {bottom: 7%}
-    100% {bottom: 8%}
+    50% {bottom: 19%}
+    100% {bottom: 20%}
 }
 
 @-webkit-keyframes dongle {
-    50% {bottom: 7%}
-    100% {bottom: 8%}
+    50% {bottom: 19%}
+    100% {bottom: 20%}
 }
 
 
@@ -369,3 +369,21 @@ footer a:visited{
     color: rgb(200, 163, 235);
 }
 /* /FOOTER */
+
+
+/* MEDIAQUERY LG */
+@Media screen and (min-width: 992px){
+    #landing-page #scroll-down{
+        bottom: 5%;
+    }
+
+    @keyframes dongle {
+    50% {bottom: 4%}
+    100% {bottom: 5%}
+    }
+
+    @-webkit-keyframes dongle {
+    50% {bottom: 4%}
+    100% {bottom: 5%}
+}
+}
