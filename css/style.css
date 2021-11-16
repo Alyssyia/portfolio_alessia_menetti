@@ -1,11 +1,18 @@
 /* TODO FIX */
 /* 
-1- landing page 100vh nasconde loghi su iphone
+1- altezza landing page 100vh nasconde scritte in basso su iphone
 2- autostart dei video
 3- pagina si apre a metà su chrome mobile
 4- cambiare i video shadow e unirli in un unico div
+5- centrare il menu a tendina del button menu
 */
 
+/* TODO FEATURE */
+/* 
+1- audio sezione bye bye 
+
+
+*/
 
 
 /* COMMONS */
@@ -88,7 +95,7 @@ video{
     right: 0;
     bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     z-index: -1;
     object-fit: cover;
 }
@@ -240,12 +247,13 @@ video{
 
 #drop-menu-box button{
     font-family: 'Roboto Mono', monospace;
-    font-weight: bold;    
-    background-color: rgba(200, 163, 235, .4);
-    border: 3px solid rgba(255, 255, 255, 0.9);
-    border-radius: 7px;
+    /* font-weight: bold; */
+    background-color: rgba(0, 0, 0, 0.315);
+    border: none;
+    /* border-bottom: 3px solid rgba(255, 255, 255, 0.9); */
+    border-radius: 5px;
     color: rgba(255, 255, 255, 0.9);
-    padding: 0px 20px 6px 20px;
+    padding: 0px 10px 6px 10px;
     z-index: 999;
 }
 
@@ -323,6 +331,7 @@ video{
 #about-me a{
     color: rgb(200, 163, 235);
     text-decoration: none;
+    margin: 0 2%;
 }
 
 #about-me a:hover{
