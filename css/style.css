@@ -251,6 +251,7 @@ video{
 
 #drop-menu-box button{
     font-family: 'Roboto Mono', monospace;
+    font-size: 10px;
     /* font-weight: bold; */
     background-color: rgba(0, 0, 0, 0.315);
     border: none;
@@ -385,5 +386,5 @@ footer a:visited{
     @-webkit-keyframes dongle {
     50% {bottom: 4%}
     100% {bottom: 5%}
-}
+    }
 }
