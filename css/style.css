@@ -315,6 +315,7 @@ video{
 /* ABOUT ME */
 #about-me button{
     font-family: 'Roboto Mono', monospace;
+    width: 150px;
     font-weight: bold;    
     background-color: rgba(0, 0, 0, 0.329);
     border: 3px solid rgba(200, 163, 235, 0.9);
@@ -335,6 +336,7 @@ video{
 #about-me a{
     color: rgb(200, 163, 235);
     text-decoration: none;
+    width: 250px;
 }
 
 #about-me a:hover{
