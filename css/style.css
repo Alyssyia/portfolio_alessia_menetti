@@ -276,7 +276,7 @@ video{
 /* WORK 1: METRO */
 #metro .ms_backstage_img img{
     border-radius: 8px;
-    height: 300px;
+    max-height: 300px;
 }
 /* /WORK 1: METRO */
 
