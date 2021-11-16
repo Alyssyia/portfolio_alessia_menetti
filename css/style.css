@@ -256,6 +256,10 @@ video{
 #drop-menu-box .dropdown-toggle::after{
     content: none;
 }
+
+#drop-menu .dropdown-item:hover{
+    background-color: #212529;
+}
 /* /HEADER */
 
 
