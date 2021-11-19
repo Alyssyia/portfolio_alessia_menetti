@@ -265,6 +265,11 @@ video{
     opacity: .7;
 }
 
+#drop-menu-box ul{
+    transform: translate(-50%, 38px) !important;
+    left: 50% !important;
+}
+
 #drop-menu-box .dropdown-toggle::after{
     content: none;
 }
