@@ -1,5 +1,5 @@
 //PAGINA INIZIA SEMPRE DALLA CIMA
-window.scrollTo(0, 0); //scrolla e va verso X = 0 e Y = 0 cioè in cima
+setTimeout(() => window.scrollTo(0, 0), 100); //scrolla e va verso X = 0 e Y = 0 cioè in cima
 
 //SCRITTA SCROLL DOWN SCOMPARE
 document.addEventListener('scroll', function () {
