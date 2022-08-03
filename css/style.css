@@ -148,7 +148,7 @@ iframe {
 }
 
 .ms_video_shadow_top {
-  height: 50%;
+  height: 25%;
   width: 100%;
   background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
   position: absolute;
@@ -156,7 +156,7 @@ iframe {
 }
 
 .ms_video_shadow_bot {
-  height: 50%;
+  height: 25%;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   position: absolute;
