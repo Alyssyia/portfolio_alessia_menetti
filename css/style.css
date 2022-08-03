@@ -94,8 +94,8 @@ img {
 video,
 iframe {
   position: relative;
-  right: 0;
-  bottom: 0;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 80vh;
   z-index: -1;
@@ -137,19 +137,37 @@ iframe {
 #landing-page {
   height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 #landing-page .ms_video_box {
-  z-index: 0;
-  height: 100%;
   position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 #video-showreel {
   position: absolute;
-  right: 0;
-  top: 0;
-  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  width: 100vw;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #video-showreel {
+    /* height = 100 * (9 / 16) = 56.25 */
+    height: 56.25vw;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #video-showreel {
+    /* width = 100 / (9 / 16) = 177.777777 */
+    width: 177.78vh;
+  }
 }
 
 #landing-page .ms_text_box {
