@@ -10,18 +10,18 @@ document.addEventListener("scroll", function () {
   }
 });
 
-const videoboxArray = document.querySelectorAll(".ms_video_box");
-const iframeArray = document.querySelectorAll("iframe");
+// const videoboxArray = document.querySelectorAll(".ms_video_box");
+// const iframeArray = document.querySelectorAll("iframe");
 
-videoboxArray.forEach((el, i) => {
-  el.addEventListener("click", () => {
-    const myFrame = iframeArray[i];
-    const video = myFrame.contentWindow.document.getElementsByTagName("video")[0];
-    if (video.paused == true) {
-      video.play();
-    }
-    // else {
-    //   video.pause();
-    // }
-  });
-});
+// videoboxArray.forEach((el, i) => {
+//   el.addEventListener("click", () => {
+//     const myFrame = iframeArray[i];
+//     const video = myFrame.contentWindow.document.getElementsByTagName("video")[0];
+//     if (video.paused == true) {
+//       video.play();
+//     }
+//     // else {
+//     //   video.pause();
+//     // }
+//   });
+// });
