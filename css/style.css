@@ -427,4 +427,9 @@ footer a:visited {
     top: 80%;
     left: 50%;
   }
+
+  #video-showreel,
+  .video-iframe {
+    pointer-events: none;
+  }
 }
