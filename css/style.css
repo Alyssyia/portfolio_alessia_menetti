@@ -1,15 +1,6 @@
-/* TODO FIX */
-/* 
-2- autostart dei video
-3- pagina si apre a metà su chrome mobile
-4- cambiare i video shadow e unirli in un unico div
-5- centrare il menu a tendina del button menu
-*/
-
 /* TODO FEATURE */
 /* 
 1- audio sezione bye bye 
-
 
 */
 
@@ -120,7 +111,8 @@ section {
   height: 100vh;
 }
 
-#video-showreel {
+#video-showreel,
+.video-iframe {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -137,14 +129,8 @@ section {
   height: 80vh;
 }
 
-iframe {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100vw;
+.video-iframe {
   height: 80vh;
-  transform: translate(-50%, -50%);
-  overflow: hidden;
 }
 
 .ms_video_shadow_top {
@@ -153,6 +139,7 @@ iframe {
   background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
   position: absolute;
   top: 0%;
+  pointer-events: none;
 }
 
 .ms_video_shadow_bot {
@@ -161,18 +148,19 @@ iframe {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
   position: absolute;
   bottom: 0%;
+  pointer-events: none;
 }
 
 @media (min-aspect-ratio: 16/9) {
   #video-showreel,
-  iframe {
+  .video-iframe {
     /* height = 100 * (9 / 16) = 56.25 */
     height: 56.25vw;
   }
 }
 @media (max-aspect-ratio: 16/9) {
   #video-showreel,
-  iframe {
+  .video-iframe {
     /* width = 100 / (9 / 16) = 177.777777 */
     width: 177.78vh;
   }
@@ -292,6 +280,19 @@ iframe {
 /* /HEADER */
 
 /* MAIN */
+#william a {
+  color: rgb(200, 163, 235);
+  text-decoration: none;
+}
+
+#william a:hover {
+  opacity: 0.9;
+}
+
+#william a:visited {
+  color: rgb(200, 163, 235);
+}
+
 /* WORK 1: METRO */
 #metro .ms_backstage_img img {
   border-radius: 8px;
@@ -423,7 +424,7 @@ footer a:visited {
   }
 
   #landing-page .ms_text_box {
-    top: 50%;
+    top: 80%;
     left: 50%;
   }
 }
