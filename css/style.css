@@ -93,7 +93,7 @@ img{
     height: 100vh;
 }
 
-video{
+video, iframe{
     position: relative;
     right: 0;
     bottom: 0;
