@@ -19,8 +19,9 @@ videoboxArray.forEach((el, i) => {
     const video = myFrame.contentWindow.document.getElementsByTagName("video")[0];
     if (video.paused == true) {
       video.play();
-    } else {
-      video.pause();
     }
+    // else {
+    //   video.pause();
+    // }
   });
 });

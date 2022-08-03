@@ -421,4 +421,9 @@ footer a:visited {
     width: 70% !important;
     margin: auto;
   }
+
+  #landing-page .ms_text_box {
+    top: 80%;
+    left: 50%;
+  }
 }
